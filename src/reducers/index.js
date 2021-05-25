@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import userReducer from "./user";
-import categoryReducer from "./category";
+import user from "./user";
+import quizSetup from "./quizSetup";
 
 const allReducer = combineReducers({
-  user: userReducer,
-  category: categoryReducer,
+  user,
+  quizSetup,
 });
 export default allReducer;
